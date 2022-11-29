@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CEP Auto-complete</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Consulta de CEP.</h1>
+        <form id="cepAutocomplete" action="">
+            <div>
+                <input type="text" placeholder="Digite seu cep." id="cepName">
+                <input type="submit" value="Procurar."id="send">
+
+                <label for="city"><br>Cidade: </label>
+                <input type="text" id="cityId" value="">
+
+                <label for="district"><br>Bairro: </label>
+                <input type="text" id="districtId" value="">
+
+                <label for="street"><br>Logradouro: </label>
+                <input type="text" id="streetId" value="">
+            </div>
+        </form>
+        <script type="module" src="script.mjs"></script>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    font-family: Arial;
+}
+
+h1{
+    font-size: 30px;
+    margin-left: 830px;
+}
+
+form{
+    font-size: 20px;
+    max-width: 375px;
+    background-color: antiquewhite;
+    margin-left: 830px;
+    border: 1px solid black;
+}
+
+input{
+    width: 200px;
+    padding: 2px;
+    color: black;
+    border: 1px solid black;
+}
+
+#cityId{
+    margin-left: 50px;
+}
+
+#districtId{
+    margin-left: 56px;
+}
+
+#streetId{
+    margin-left: 13px;
+}
+
+#send{
+    height: 25px;
+    width: 100px;
+    font-weight: bold;
+}
